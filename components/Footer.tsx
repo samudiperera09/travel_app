@@ -11,10 +11,11 @@ const Footer = () => {
         md:flex-row'>
           <Link href = "/" className= "mb-10">
             <Image
-              src= "hilink-logo.svg"
+              src= "/logo.png"
               alt='logo'
-              width={74}
+              width={200}
               height={29}
+              className='mt-[-20px]'
             />
           </Link>
 
@@ -79,7 +80,7 @@ const Footer = () => {
 
         <div className='border bg-gray-20'/>
         <p className='regular-14 w-full text-center text-gray-30'>
-          2024 HiLink | All rights reserved
+          2024 Travellogram | All rights reserved
         </p>
       </div>
 

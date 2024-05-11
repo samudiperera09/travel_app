@@ -15,9 +15,9 @@ export const Hero = () => {
           height = {50}
           className='absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]'
         />
-        <h1 className='bold-52 lg:bold-88'>Putuk Truno Camp Area</h1>
+        <h1 className='bold-40 lg:bold-52'>Captivating Tales from Wanderlust's Diary!</h1>
         <p className='regular-16 mt-6 text-gray-30 xl:max-w-[520px]'>
-          We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure around the world in just one app
+          Immerse yourself in captivating narratives, breathtaking photographs, and invaluable travel tips from passionate explorers across the globe. Start exploring today and let the magic of travel unfold before your eyes!
         </p>
 
         <div className='my-11 flex flex-wrap gap-5'>
@@ -61,17 +61,17 @@ export const Hero = () => {
               <p className='regular-16 text-gray-20'>Location</p>
               <Image src = "/close.svg" alt='close' width={24} height={24}/>
             </div>
-            <p className='bold-20 text-white'>Aguas Calientes</p>
+            <p className='bold-20 text-white'>Moon Plains</p>
           </div>
 
           <div className='flexBetween'>
             <div className='flex flex-col'>
               <p className='regular-16 block text-gray-20 '>Distance</p>
-              <p className='nold-20 text-white'>173.28 miles</p>
+              <p className='nold-20 text-white'>172.3 km</p>
             </div>
             <div className='flex flex-col'>
               <p className='regular-16 block text-gray-20 '>Elevation</p>
-              <p className='nold-20 text-white'>2.040 km</p>
+              <p className='nold-20 text-white'>1.8 km</p>
             </div>
           </div>
         </div>
